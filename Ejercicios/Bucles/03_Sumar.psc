@@ -1,13 +1,10 @@
 Algoritmo Sumar
-	Escribir "Escriba la cantidad de numeros que quiera sumar"
+	Escribir Sin Saltar "Escriba la cantidad de numeros que quiera sumar: "
 	Leer num
-	Escribir "-----------------------------------------------"
-	i <- 0
-	j <- 0
-	Mientras num > 0 Hacer
-		j <- j + 1
+	Escribir "-------------------------------------------------------"
+	Repetir
+		i <- i + num
 		num <- num - 1
-		i <- i + j
-		Escribir i
-	Fin Mientras
+	Hasta Que num <= 0
+	Escribir i
 FinAlgoritmo
