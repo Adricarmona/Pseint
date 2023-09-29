@@ -1,4 +1,5 @@
 Algoritmo palindromo
+	//codigo escrito por Adrian Carmona en programacion,1ºDam del C.P.I.F.P. NUEVO (desglose IES Campanillas)
 	Escribir "#######################################################"
 	Escribir "#                                                     #"
 	Escribir "#   Bien venido al programa que detecta palindromos   #"
